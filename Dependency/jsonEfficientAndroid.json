@@ -1,0 +1,498 @@
+[
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "12.85", 
+  "testTimeConsume": "9.55", 
+  "controlName": "AUAmountEditText", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "16.15", 
+  "testTimeConsume": "11.45", 
+  "controlName": "AUAmountFootView", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "12.41", 
+  "testTimeConsume": "9.29", 
+  "controlName": "AUAmountHeadView", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "8.0", 
+  "developTimeConsume": "13.61", 
+  "testTimeConsume": "9.99", 
+  "controlName": "AUAmountInputBox", 
+  "uedCheckUponTimeConsume": "4.0", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "8.36", 
+  "testTimeConsume": "6.94", 
+  "controlName": "AUAmountLabelText", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "10.83", 
+  "testTimeConsume": "8.37", 
+  "controlName": "AUAmountTextWatcher", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "11.33", 
+  "testTimeConsume": "8.67", 
+  "controlName": "AUAssistLabelView", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "10.45", 
+  "testTimeConsume": "8.15", 
+  "controlName": "AUBankCardItem", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "xx", 
+  "developTimeConsume": "17.22", 
+  "testTimeConsume": "12.08", 
+  "controlName": "AUBaseDialog", 
+  "uedCheckUponTimeConsume": "xx", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "16.53", 
+  "testTimeConsume": "11.67", 
+  "controlName": "AUBaseListItem", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "12.28", 
+  "testTimeConsume": "9.22", 
+  "controlName": "AUBasePwdInputBox", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "21.91", 
+  "testTimeConsume": "14.79", 
+  "controlName": "AUBladeView", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "2.0", 
+  "developTimeConsume": "14.56", 
+  "testTimeConsume": "10.54", 
+  "controlName": "AUButton", 
+  "uedCheckUponTimeConsume": "1.0", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "20.96", 
+  "testTimeConsume": "14.24", 
+  "controlName": "AUCardInteractView", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "0.25", 
+  "developTimeConsume": "24.57", 
+  "testTimeConsume": "16.33", 
+  "controlName": "AUCardMenu", 
+  "uedCheckUponTimeConsume": "0.25", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "32.61", 
+  "testTimeConsume": "20.99", 
+  "controlName": "AUCardOptionView", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "2.0", 
+  "developTimeConsume": "10.32", 
+  "testTimeConsume": "8.08", 
+  "controlName": "AUCheckBox", 
+  "uedCheckUponTimeConsume": "1.0", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "10.0", 
+  "testTimeConsume": "7.9", 
+  "controlName": "AUCheckBoxListItem", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "11.4", 
+  "testTimeConsume": "8.7", 
+  "controlName": "AUCheckIcon", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "7.28", 
+  "testTimeConsume": "6.32", 
+  "controlName": "AUCircleImageView", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "10.45", 
+  "testTimeConsume": "8.15", 
+  "controlName": "AUCornerListView", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "11.27", 
+  "testTimeConsume": "8.63", 
+  "controlName": "AUCouponsItem", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "3.0", 
+  "developTimeConsume": "28.31", 
+  "testTimeConsume": "18.49", 
+  "controlName": "AUDatePicker", 
+  "uedCheckUponTimeConsume": "1.0", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "10.13", 
+  "testTimeConsume": "7.97", 
+  "controlName": "AUDefaultLoadingView", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "7.47", 
+  "testTimeConsume": "6.43", 
+  "controlName": "AUDividerListView", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "1.5", 
+  "developTimeConsume": "18.93", 
+  "testTimeConsume": "13.07", 
+  "controlName": "AUDoubleTitleListItem", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "13.68", 
+  "testTimeConsume": "10.02", 
+  "controlName": "AUDragLoadingView", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "7.03", 
+  "testTimeConsume": "6.17", 
+  "controlName": "AUEmptyGoneTextView", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "2.0", 
+  "developTimeConsume": "22.1", 
+  "testTimeConsume": "14.9", 
+  "controlName": "AUFloatMenu", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "10.76", 
+  "testTimeConsume": "8.34", 
+  "controlName": "AUFlowResultView", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "415.27", 
+  "testTimeConsume": "242.53", 
+  "controlName": "AUHorizontalListView", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "50.09", 
+  "testTimeConsume": "31.11", 
+  "controlName": "AUImageDialog", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "17.73", 
+  "testTimeConsume": "12.37", 
+  "controlName": "AUImagePickerSkeleton", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "42.68", 
+  "testTimeConsume": "26.82", 
+  "controlName": "AUInputBox", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "18.43", 
+  "testTimeConsume": "12.77", 
+  "controlName": "AUInputDialog", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "18.17", 
+  "testTimeConsume": "12.63", 
+  "controlName": "AULineBreakListItem", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0.25", 
+  "developTimeConsume": "28.94", 
+  "testTimeConsume": "18.86", 
+  "controlName": "AUListDialog", 
+  "uedCheckUponTimeConsume": "0.25", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "9.62", 
+  "testTimeConsume": "7.68", 
+  "controlName": "AULoadingView", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "11.14", 
+  "testTimeConsume": "8.56", 
+  "controlName": "AUMaskImage", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "1.5", 
+  "developTimeConsume": "10.76", 
+  "testTimeConsume": "8.34", 
+  "controlName": "AUMultiListItem", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0.0", 
+  "developTimeConsume": "26.41", 
+  "testTimeConsume": "17.39", 
+  "controlName": "AUNetErrorView", 
+  "uedCheckUponTimeConsume": "0.0", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "18.74", 
+  "testTimeConsume": "12.96", 
+  "controlName": "AUNoticeDialog", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "13.04", 
+  "testTimeConsume": "9.66", 
+  "controlName": "AUNumberKeyboardView", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "17.92", 
+  "testTimeConsume": "12.48", 
+  "controlName": "AUOperationResultDialog", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "2.0", 
+  "developTimeConsume": "11.71", 
+  "testTimeConsume": "8.89", 
+  "controlName": "AUParagraphInputBox", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "1.5", 
+  "developTimeConsume": "13.04", 
+  "testTimeConsume": "9.66", 
+  "controlName": "AUParallelTitleListItem", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "2.0", 
+  "developTimeConsume": "27.86", 
+  "testTimeConsume": "18.24", 
+  "controlName": "AUPopMenu", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "18.3", 
+  "testTimeConsume": "12.7", 
+  "controlName": "AUProcessButton", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "12.66", 
+  "testTimeConsume": "9.44", 
+  "controlName": "AUProgressDialog", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "21.09", 
+  "testTimeConsume": "14.31", 
+  "controlName": "AUPullLoadingView", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "2.5", 
+  "developTimeConsume": "19.06", 
+  "testTimeConsume": "13.14", 
+  "controlName": "AUQRCodeView", 
+  "uedCheckUponTimeConsume": "1.0", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "41.35", 
+  "testTimeConsume": "26.05", 
+  "controlName": "AURefreshListView", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "2.5", 
+  "developTimeConsume": "14.37", 
+  "testTimeConsume": "10.43", 
+  "controlName": "AUResultView", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "33.37", 
+  "testTimeConsume": "21.43", 
+  "controlName": "AUSearchBar", 
+  "uedCheckUponTimeConsume": "1.0", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "23.24", 
+  "testTimeConsume": "15.56", 
+  "controlName": "AUSearchInputBox", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "23.37", 
+  "testTimeConsume": "15.63", 
+  "controlName": "AUSearchView", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "52.94", 
+  "testTimeConsume": "32.76", 
+  "controlName": "AUSegment", 
+  "uedCheckUponTimeConsume": "1.0", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "8.36", 
+  "testTimeConsume": "6.94", 
+  "controlName": "AUSwitch", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "1.0", 
+  "developTimeConsume": "20.26", 
+  "testTimeConsume": "13.84", 
+  "controlName": "AUSwitchListItem", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "57.69", 
+  "testTimeConsume": "35.51", 
+  "controlName": "AUTitleBar", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }, 
+ {
+  "uedDevTimeConsume": "1.5", 
+  "developTimeConsume": "13.49", 
+  "testTimeConsume": "9.91", 
+  "controlName": "AUToast", 
+  "uedCheckUponTimeConsume": "0.5", 
+  "pdTimeConsume": "2.5"
+ }, 
+ {
+  "uedDevTimeConsume": "0", 
+  "developTimeConsume": "96.26", 
+  "testTimeConsume": "57.84", 
+  "controlName": "EmojiMap", 
+  "uedCheckUponTimeConsume": "0", 
+  "pdTimeConsume": "1.2"
+ }
+]

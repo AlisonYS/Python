@@ -1,0 +1,250 @@
+[
+ {
+  "controlName": "AUAmountEditText", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUAmountFootView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUAmountHeadView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUAmountInputBox", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUAmountLabelText", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUAmountTextWatcher", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUAssistLabelView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUBankCardItem", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUBaseDialog", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUBaseListItem", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUBasePwdInputBox", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUBladeView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUButton", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUCardInteractView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUCardMenu", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUCardOptionView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUCheckBox", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUCheckBoxListItem", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUCheckIcon", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUCircleImageView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUCornerListView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUCouponsItem", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUDatePicker", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUDefaultLoadingView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUDividerListView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUDoubleTitleListItem", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUDragLoadingView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUEmptyGoneTextView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUFloatMenu", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUFlowResultView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUHorizontalListView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUImageDialog", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUImagePickerSkeleton", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUInputBox", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUInputDialog", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AULineBreakListItem", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUListDialog", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AULoadingView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUMaskImage", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUMultiListItem", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUNetErrorView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUNoticeDialog", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUNumberKeyboardView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUOperationResultDialog", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUParagraphInputBox", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUParallelTitleListItem", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUPopMenu", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUProcessButton", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUProgressDialog", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUPullLoadingView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUQRCodeView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AURefreshListView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUResultView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUSearchBar", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUSearchInputBox", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUSearchView", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUSegment", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUSwitch", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUSwitchListItem", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUTitleBar", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "AUToast", 
+  "alipayDependency": "8"
+ }, 
+ {
+  "controlName": "EmojiMap", 
+  "alipayDependency": "8"
+ }
+]
