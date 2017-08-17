@@ -5,10 +5,9 @@ from bs4 import BeautifulSoup
 def global_check_used(class_name, bundle_name):
 	max = 0	
 	de = {}
-	global_search_url = 'http://codesearch.alipay.net/source/search?project=Android_wallet_master&q=%s&n=%s&start=0'
+	global_search_url = 'http://codesearch.alipay.net/source/search?project=iOS_wallet_master&q=%s&n=%s&start=0'
 	h = httplib2.Http()
 	__str = global_search_url % (urllib.quote(class_name), "")
-	print __str
 	resp, content = h.request(__str, "GET")
 	soup = BeautifulSoup(content, "html.parser")
 	results = soup.find(id="results")
@@ -32,7 +31,7 @@ def global_check_used(class_name, bundle_name):
 			for dependency in dependencySet:
 				a_link = dependency.a
 				href = a_link.get('href').split('/')
-				if href[4]!= bundle_name:
+				if href[4] != bundle_name:
 					de[a_link.get_text()] = href[4]
 		return de
 
@@ -49,7 +48,7 @@ def global_check_used(class_name, bundle_name):
 			for single in totalSet:
 				a_link = single.a
 				href = a_link.get('href').split('/')
-				if href[4] is not bundle_name:
+				if href[4] != bundle_name:
 					de[a_link.get_text()] = href[4]
 		return de
 	return de
