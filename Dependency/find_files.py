@@ -22,9 +22,8 @@ def checkKey(fileName):
 	print len(info),'>>>>>>>>>>>>>>>>>'
 	return len(info)
 
-def insertDependency(class_name, bundle_name):
-	dependency = global_check_used(class_name, bundle_name)
-	print dependency
+def insertDependency(class_name, package_name, bundle_name):
+	dependency = global_check_used(package_name, bundle_name)
 	if dependency is not None:
 		for key, value in dependency.items():
 			print(key + ":" + value)
@@ -51,8 +50,8 @@ if __name__=="__main__":
 	bundleName = "android-phone-antui"
 	for name,lineCount,package_name in _utils.getFileListWithJava(path):
 		if checkKey(name) is not 0:
-			sql="UPDATE dependency.class SET packageName = '%s' WHERE class_name ='%s'"
-			cur.execute(sql % (package_name,name))
+			sql="UPDATE dependency.class SET packageName = '%s', lineCount = '%s' WHERE class_name ='%s'"
+			cur.execute(sql % (package_name,lineCount,name))
 			continue
 		try:
 			sql="insert into dependency.class(class_name,bundle_name,lineCount) values('"+ name +"','"+ bundleName +"','"+ lineCount +"')"
@@ -63,18 +62,13 @@ if __name__=="__main__":
 			print("class error : " + e)
 
 	
-	sql = "SELECT pc.packageName FROM dependency.class pc WHERE pc.description is not NULL"
-	cur.execute(sql)
-	data = cur.fetchall()
-	for row in data:  
-		insertDependency(row[0], bundleName)
+	# sql = "SELECT pc.class_name, pc.packageName FROM dependency.class pc WHERE pc.description is not NULL"
+	# cur.execute(sql)
+	# data = cur.fetchall()
+	# for row in data:  
+	# 	insertDependency(row[0],row[1],bundleName)
 
-	# except Exception, e:
-	# 	print(e)
-	# else:
-	# 	print("else")
-	# finally:
-	# 	cur.close()
-	# 	conn.commit()
-	# 	conn.close()
-	# 	print("finally")
+	
+	cur.close()
+	conn.commit()
+	conn.close()

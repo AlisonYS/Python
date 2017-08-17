@@ -1,16 +1,17 @@
 import httplib2
+import urllib
 from bs4 import BeautifulSoup
 
 def global_check_used(class_name, bundle_name):
 	max = 0	
 	de = {}
-	global_search_url = 'http://codesearch.alipay.net/source/search?project=Android_wallet_master&q="%s"&n=%s&start=0'
+	global_search_url = 'http://codesearch.alipay.net/source/search?project=Android_wallet_master&q=%s&n=%s&start=0'
 	h = httplib2.Http()
-	resp, content = h.request(global_search_url % (class_name, ""), "GET")
-	print global_search_url % (class_name, "")
+	__str = global_search_url % (urllib.quote(class_name), "")
+	print __str
+	resp, content = h.request(__str, "GET")
 	soup = BeautifulSoup(content, "html.parser")
 	results = soup.find(id="results")
-	print 'results',results
 	if not results:
 		print('check size not result')
 		return de
@@ -36,7 +37,7 @@ def global_check_used(class_name, bundle_name):
 		return de
 
 	else:
-		resp, content = h.request(global_search_url % (class_name, str(max)), "GET")
+		resp, content = h.request(global_search_url % (urllib.quote(class_name), str(max)), "GET")
 		soup = BeautifulSoup(content, "html.parser")
 		totalResults = soup.find(id="results")
 		if not totalResults:

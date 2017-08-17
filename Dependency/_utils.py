@@ -9,7 +9,7 @@ def getFileListWithJava(path):
 				for line in content:
 					if line.startswith('package '):		
 						_str = line[line.find('package ') + len('package '):-2]
-						package_name = _str + '.' + name[0:-5]
+						package_name = '"' + _str + '.' + name[0:-5] +'"'
 				lines = len(content) 
 				print name,lines,package_name
 				yield name,lines,package_name
