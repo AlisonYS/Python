@@ -38,12 +38,12 @@ try :
                 for public_id in duplicate_id:
                     if public_id == public_array[2]:
                         isduplicate = 1
-                if isduplicate == 0:
+                if (isduplicate == 0 and public_array[0] == "string"):
                     duplicate_id.append(public_array[2])
                     public_list += "  "+dealArray(public_array) + '\n'
     finally :
         public_list += "</resources>"
         writeFiles(public_list)
         print('Done Success!')
-except :
-    print('Input Error!')
+except Exception , e:
+    print('Input Error!',e)

@@ -4,10 +4,11 @@ from bs4 import BeautifulSoup
 
 def global_check_used(class_name, bundle_name):
 	max = 0	
-	de = {}
-	global_search_url = 'http://codesearch.alipay.net/source/search?project=iOS_wallet_master&q=%s&n=%s&start=0'
+	de = None
+	global_search_url = 'http://codesearch.alipay.net/source/search?project=Android_wallet_master&q=%s&n=%s&start=0'
 	h = httplib2.Http()
 	__str = global_search_url % (urllib.quote(class_name), "")
+
 	resp, content = h.request(__str, "GET")
 	soup = BeautifulSoup(content, "html.parser")
 	results = soup.find(id="results")
@@ -21,13 +22,14 @@ def global_check_used(class_name, bundle_name):
 		for result in sizeSet:
 			bold = result.find_all('b')
 			if len(bold) > 2:
-				max = int(bold[2].text)
+				max = int(bold[len(bold)-1].text)
 
 	if max is 0:
 		dependencySet = results.find_all('td', class_="f")
 		if dependencySet is None or len(dependencySet) is 0:
 			print('none result when global search ' + class_name + "--" + bundle_name)
 		else:
+			de = {}
 			for dependency in dependencySet:
 				a_link = dependency.a
 				href = a_link.get('href').split('/')
@@ -45,6 +47,7 @@ def global_check_used(class_name, bundle_name):
 		if totalSet is None or len(totalSet) is 0:
 			print('none result when global search ' + class_name + "--" + bundle_name)
 		else:
+			de = {}
 			for single in totalSet:
 				a_link = single.a
 				href = a_link.get('href').split('/')

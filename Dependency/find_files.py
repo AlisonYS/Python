@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.DEBUG,
 conn = MySQLdb.connect(host='localhost',port = 3306,user='root',passwd='mysql1103',db ='dependency')
 
 def checkKey(fileName):
-	select_sql = "select * from dependency.class where class_name = '" + fileName + "'";
+	select_sql = "select * from dependency.ui_class where class_name = '" + fileName + "'";
 	c = conn.cursor()
 	a = c.execute(select_sql)
 	info =  c.fetchmany(a)
@@ -34,7 +34,7 @@ def insertDependency(class_name, package_name, bundle_name):
 					_type = 'java'
 				else:
 					_type = 'other'
-				sql="insert into dependency(class,"+_type+",bundle) values('"+ class_name +"','"+ key +"','"+ value+"')"
+				sql="insert into ui_dependency(class,"+_type+",bundle) values('"+ class_name +"','"+ key +"','"+ value+"')"
 				print sql
 				cur.execute(sql)
 				print("inset dependency")
@@ -43,30 +43,31 @@ def insertDependency(class_name, package_name, bundle_name):
 	else:
 		print("global_check is None")
 
+
 if __name__=="__main__":
 	cur = conn.cursor()
 	# try:
 	path = sys.argv[1]
-	bundleName = "android-phone-antui"
-	for name,lineCount,package_name in _utils.getFileListWithJava(path):
+	bundleName = "mpaas-ui"
+	for name,lineCount,packageName in _utils.getFileListWithJava(path):
 		if checkKey(name) is not 0:
-			sql="UPDATE dependency.class SET packageName = '%s', lineCount = '%s' WHERE class_name ='%s'"
-			cur.execute(sql % (package_name,lineCount,name))
+			sql="UPDATE dependency.ui_class SET packageName = '%s', lineCount = '%s' WHERE class_name ='%s'"
+			cur.execute(sql % (packageName,lineCount,name))
 			continue
 		try:
-			sql="insert into dependency.class(class_name,bundle_name,lineCount) values('"+ name +"','"+ bundleName +"','"+ lineCount +"')"
-			print sql
-			cur.execute(sql)
+			sql="INSERT into dependency.ui_class(class_name,bundle_name,lineCount) values ('%s','%s','%s')"
+			print sql % (name,bundleName,lineCount)
+			cur.execute(sql % (name,bundleName,lineCount))
 			print("inset class")
 		except Exception, e:
 			print("class error : " + e)
 
 	
-	# sql = "SELECT pc.class_name, pc.packageName FROM dependency.class pc WHERE pc.description is not NULL"
-	# cur.execute(sql)
-	# data = cur.fetchall()
-	# for row in data:  
-	# 	insertDependency(row[0],row[1],bundleName)
+	sql = "SELECT pc.class_name, pc.packageName FROM dependency.ui_class pc"
+	cur.execute(sql)
+	data = cur.fetchall()
+	for row in data:  
+		insertDependency(row[0],row[1],bundleName)
 
 	
 	cur.close()

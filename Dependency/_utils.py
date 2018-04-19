@@ -1,4 +1,5 @@
 from os import walk
+import re
 
 def getFileListWithJava(path): 
 	for (dirpath, dirnames, filenames) in walk(path):
@@ -13,8 +14,29 @@ def getFileListWithJava(path):
 				lines = len(content) 
 				print name,lines,package_name
 				yield name,lines,package_name
+
+
+# "@com.alipay.mobile.ui:drawable/announcement_close_normal"
+# "com.alipay.mobile.ui.R.drawable.qr_default"
+
+def getPubliceResource(filepath): 
+	myfile = open(filepath) 
+	content = myfile.readlines()
+	xml_name = '@com.alipay.mobile.ui:%s/%s'
+	java_name = 'com.alipay.mobile.ui.R.%s.%s'
+	for line in content:
+		typeArray = re.findall('type="(.*?)"',line)
+		nameArray = re.findall('name="(.*?)"',line)
+		if len(typeArray) != 0:
+			r_type = typeArray[0]
+			r_name = nameArray[0]
+			if (r_type != 'attr'):
+				xml = '"' + xml_name % (r_type, r_name) + '"'
+				java = '"' + java_name % (r_type, r_name) + '"'
+				yield r_name, xml, java
 	
 
 if __name__ == '__main__':
-	for name,lines,pkg_name in getFileListWithJava("/Users/xuanmu/work/android-phone-antui/antui/api/src"):
-		print name,lines,pkg_name
+	for resourc, xml,java, in getPubliceResource("/Users/xuanmu/work/mpaas-ui/ui/widget/res/values/public.xml"):
+		print resourc, xml, java
+
