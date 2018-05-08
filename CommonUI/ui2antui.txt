@@ -1,0 +1,148 @@
+announcement_close_normal|E626#com-alipay-android-phone-mobilecommon-ui-build:10.1.0.170824000154,res,drawable-xxhdpi-v4,announcement_close_normal#F65F22
+announcement_close_press|E626#com-alipay-android-phone-mobilecommon-ui-build:10.1.0.170824000154,res,drawable-xxhdpi-v4,announcement_close_press#F4A67E
+btn_subsub_bg|style="@com.alipay.mobile.antui:style/subButtonStyle"
+btn_subsub_bg_press|style="@com.alipay.mobile.antui:style/subButtonStyle"
+cdp_native_close_btn|E7d8#com-alipay-android-phone-mobilecommon-ui-build:10.1.0.170824000154,res,drawable-xxhdpi-v4,cdp_native_close_btns#FFFFFF
+cdp_native_line|迁移业务
+checkbox_disable|AUCheckIcon
+checkbox_style|AUCheckIcon
+float_delete|E60C#com-alipay-android-phone-mobilecommon-ui-build:10.1.0.170824000154,res,drawable-xxhdpi-v4,float_delete#797979
+icon_result_close|E779#com-alipay-android-phone-mobilecommon-ui-build:10.1.0.170824000154,res,drawable-xxhdpi-v4,icon_result_close#F5474A
+icon_result_notice|迁移业务
+info_help_large|E7D4#com-alipay-android-phone-mobilecommon-ui-build:10.1.0.170824000154,res,drawable-xxhdpi-v4,info_help_large#108ee9
+info_info_small|E7DF#com-alipay-android-phone-mobilecommon-ui-build:10.1.0.170824000154,res,drawable-xxhdpi-v4,info_info_small#108ee9
+info_wait_large|迁移业务
+input_delete|E615#com-alipay-android-phone-securitycommon-verifyidentitybiz-build:3.1.5.171023162634,res,drawable-hdpi-v4,input_delete#cccccc
+list_alipay|迁移业务
+list_contact|迁移业务
+main_button_color|style="@com.alipay.mobile.antui:style/subButtonStyle"
+table_bottom_selector|com.alipay.mobile.antui:drawable/pop_list_corner_round_bottom
+table_center_selector|com.alipay.mobile.antui:drawable/pop_list_corner_shape
+table_off|AUSwitch
+table_on|AUSwitch
+table_square_normal|迁移业务
+table_top_selector|com.alipay.mobile.antui:drawable/pop_list_corner_round_top
+textview_check_box_style|AUCheckIcon
+title_bar_back_btn_press|IconUtils.getTitleIcon_Blue(this, com.alipay.mobile.antui.R.string.iconfont_back)
+title_bar_back_press_white|IconUtils.getTitleIcon_Blue(this, com.alipay.mobile.antui.R.string.iconfont_back)
+title_bar_title_selector|迁移业务
+titlebar_add_normal|E61E#com-alipay-android-phone-businesscommon-commonbiz-build:1.3.3.171109144745,res,drawable-xxhdpi-v4,titlebar_add_normal#ffffff
+titlebar_add_press|E61E#com-alipay-android-phone-businesscommon-commonbiz-build:1.3.3.171109144745,res,drawable-xxhdpi-v4,titlebar_add_press#ffffff
+titlebar_add_selector|IconUtils.getTitleIcon_White(this, com.alipay.mobile.antui.R.string.iconfont_addk)
+titlebar_adduser_normal|IconUtils.getTitleIcon_Blue(this, com.alipay.mobile.antui.R.string.iconfont_sysytem_addperson)
+titlebar_adduser_press|IconUtils.getTitleIcon_Blue(this, com.alipay.mobile.antui.R.string.iconfont_sysytem_addperson)
+titlebar_edit_normal|迁移业务
+titlebar_help_normal_white|IconUtils.getTitleIcon_White(this, com.alipay.mobile.antui.R.string.iconfont_help)
+titlebar_help_press_white|IconUtils.getTitleIcon_White(this, com.alipay.mobile.antui.R.string.iconfont_help)
+titlebar_message_setting_blue_default|IconUtils.getTitleIcon_Blue#E620
+titlebar_message_setting_blue_press|IconUtils.getTitleIcon_Blue#E620
+titlebar_message_setting_white_default|IconUtils.getTitleIcon_White#E620
+titlebar_message_setting_white_press|IconUtils.getTitleIcon_White#E620
+titlebar_my_normal_white|IconUtils.getTitleIcon_White#E61F
+titlebar_my_press_white|IconUtils.getTitleIcon_White#E61F
+titlebar_search_icon|E60A#com-alipay-android-phone-mobilecommon-ui-build:10.1.0.170824000154,res,drawable-xxhdpi-v4,titlebar_search_icon#b3b3b3
+titlebar_search_normal_white|IconUtils.getTitleIcon_White#E60A
+titlebar_search_press_white|IconUtils.getTitleIcon_White#E60A
+titlebar_setting_normal|IconUtils.getTitleIcon_Blue#E604
+titlebar_setting_press|IconUtils.getTitleIcon_Blue#E604
+titlebar_share_normal_white|IconUtils.getTitleIcon_White#E60B
+titlebar_share_press_white|IconUtils.getTitleIcon_White#E60B
+colorBlue|    <color name="colorBlue">#2277bb</color>
+colorEnableFalse|<color name="colorEnableFalse">#aaaaaa</color>
+colorEnableFalse|<color name="colorEnableFalse">#aaaaaa</color>
+colorOrange|<color name="colorOrange">#ff7700</color>
+colorRed|<color name="colorRed">#ff0000</color>
+title_bar_text_button_color|
+blueButtonStyle|style="@com.alipay.mobile.antui:style/mainButtonStyle"
+blueButtonStyle|style="@com.alipay.mobile.antui:style/mainButtonStyle"
+dialogButtonStyle|迁移业务
+mainButtonDarkbgStyle|style="@com.alipay.mobile.antui:style/mainButtonStyle"
+text_28|<item name="android:textSize">18.7dp</item>
+text_blue_24|<item name="android:textColor">#385487</item>
+text_dark_gray_20|"<item name="android:textColor">#000000</item> <item name="android:textSize">12dp</item>"
+text_dark_gray_28|"<item name="android:textColor">#000000</item> <item name="android:textSize">18.7dp</item>"
+text_gray_26|"<item name="android:textColor">#666666</item> <item name="android:textSize">16dp</item>"
+text_gray_30|"<item name="android:textColor">#666666</item> <item name="android:textSize">20dp</item>"
+performance_sdk_text_key|迁移到antui
+titlebar_search_press|IconUtils.getTitleIcon_Blue#E60A
+titlebar_del_normal|IconUtils.getTitleIcon_Blue#E60C
+titlebar_button_style|
+titlebar_background|Color.White
+title_bar_btn_bg_selector|Color.White
+text_gray_24|android:textColor="@com.alipay.mobile.antui:color/AU_COLOR_SUB_CONTENT"
+text_gray_20|android:textColor="@com.alipay.mobile.antui:color/AU_COLOR_SUB_CONTENT"
+text_dark_gray_26|android:textColor="@com.alipay.mobile.antui:color/AU_COLOR_MAIN_CONTENT" android:textSize="16dp"
+text_dark_gray_22|android:textColor="@com.alipay.mobile.antui:color/AU_COLOR_MAIN_CONTENT" android:textSize="16dp"
+text_26|android:textSize="16dp"
+table_switch_selector|AUSwitch
+table_square_top|com.alipay.mobile.antui:color/AU_COLOR_LINE
+table_normal_selector|com.alipay.mobile.antui:drawable/pop_list_corner_round
+subSubButtonDarkbgStyle|style="@com.alipay.mobile.antui:style/subButtonStyle"
+simple_toast_exception|AUToast.makeToast(ToastActivity.this, PublicResources.Toast_Exception, "警示提示", Toast.LENGTH_SHORT).show();
+member_primary|com.alipay.mobile.antui:drawble/member_primary
+list_camera|业务迁移
+limit_rpc_subtitle|com.alipay.mobile.antui:string/limit_rpc_subtitle
+input_square_normal|
+input_normal|
+info_warn_large|E7BC#com-alipay-android-phone-mobilecommon-ui-build:10.1.0.170824000154,res,drawable-xxhdpi-v4,info_warn_large#f7b10a
+info_info_large|
+info_fail_large|E779#com-alipay-android-phone-mobilecommon-ui-build:10.1.0.170824000154,res,drawable-xxhdpi-v4,info_fail_large#F5474A
+icon_result_ok|E612#com-alipay-android-phone-mobilecommon-ui-build:10.1.0.170824000154,res,drawable-xxhdpi-v4,icon_result_ok#108ee9
+float_report|E78F#com-alipay-android-phone-mobilecommon-ui-build:10.1.0.170824000154,res,drawable-xxhdpi-v4,float_report#797979
+float_qrcode|E607#com-alipay-android-phone-mobilecommon-ui-build:10.1.0.170824000154,res,drawable-xxhdpi-v4,float_qrcode#797979
+checkbox_normal_new|AUCheckIcon
+titlebar_share_press|IconUtils.getTitleIcon_White#E60B
+titlebar_search_normal|IconUtils.getTitleIcon_Blue#E60A
+titlebar_more_press_white|IconUtils.getTitleIcon_White#E606
+titlebar_kenel|
+titlebar_help_press|IconUtils.getTitleIcon_White#E6EB
+titlebar_help_normal|IconUtils.getTitleIcon_White#E6EB
+title_bar_back_btn|IconUtils.getTitleIcon_White(this, com.alipay.mobile.antui.R.string.iconfont_back)
+text_light_gray_26|com.alipay.mobile.antui:color/AU_COLOR_SUB_CONTENT  android:textSize="12dp"
+text_gray_18|com.alipay.mobile.antui:color/AU_COLOR_SUB_CONTENT  android:textSize="16dp"
+simple_toast_false|AUToast.makeToast(ToastActivity.this, PublicResources.Toast_False, "错误提示", Toast.LENGTH_SHORT).show();
+performance_sdk_monitor_key|com.alipay.mobile.antui:id/performance_sdk_monitor_key
+member_platinum|com.alipay.mobile.antui:drawble/member_platinum
+member_golden|com.alipay.mobile.antui:drawble/member_golden
+member_diamond|com.alipay.mobile.antui:drawble/member_diamond
+icon_result_alipay|com.alipay.mobile.antui:drawble/icon_result_alipay
+greenSmallButtonStyle|@com.alipay.mobile.antui:style/assMainButtonStyle
+float_share|IconUtils.getTitleIcon_Blue#E60B
+checkbox_press|AUCheckIcon
+titlebar_share_normal|IconUtils.getTitleIcon_Blue#E60B
+text_light_gray_24|com.alipay.mobile.antui:color/AU_COLOR_SUB_CONTENT  android:textSize="16dp"
+text_light_gray_22|com.alipay.mobile.antui:color/AU_COLOR_SUB_CONTENT  android:textSize="16dp"
+text_light_gray_18|com.alipay.mobile.antui:color/AU_COLOR_SUB_CONTENT  android:textSize="12dp"
+text_light_gray|com.alipay.mobile.antui:color/AU_COLOR_SUB_CONTENT  android:textSize="12dp"
+text_gray_22|com.alipay.mobile.antui:color/AU_COLOR_SUB_CONTENT  android:textSize="16dp"
+simple_toast_ok|AUToast.makeToast(ToastActivity.this, PublicResources.Toast_OK, "成功", Toast.LENGTH_SHORT).show();
+info_ok_large|E612#com-alipay-android-phone-mobilecommon-ui-build:10.1.0.170824000154,res,drawable-xxhdpi-v4,icon_result_ok#108ee9
+colorGray|com.alipay.mobile.antui:color/AU_COLOR_SUB_CONTENT
+titlebar_more_normal_white|IconUtils.getTitleIcon_White(this, com.alipay.mobile.antui.R.string.iconfont_more)
+title_bar_back_btn_white|IconUtils.getTitleIcon_White(this, com.alipay.mobile.antui.R.string.iconfont_back)
+text_20|android:textSize="12dp"
+chat_cursor_color|com.alipay.mobile.antui:drawable/au_cursor_drawable
+title_bar_back_btn_selector|IconUtils.getTitleIcon_Blue(this, com.alipay.mobile.antui.R.string.iconfont_back)
+text_22|android:textSize="16dp"
+layoutButtonStyle|com.alipay.mobile.antui:style/listButtonStyle
+titlebar_more_press|IconUtils.getTitleIcon_Blue#E60C
+text_24|android:textSize="16dp"
+subSubButtonStyle|style="@com.alipay.mobile.antui:style/subButtonStyle"
+colorWhite|#FFFFFF
+text_light_gray_20|com.alipay.mobile.antui:color/AU_COLOR_SUB_CONTENT  android:textSize="12dp"
+text_dark_gray_24|com.alipay.mobile.antui:color/AU_COLOR_MAIN_CONTENT  android:textSize="16dp"
+table_square_normal_selector|com.alipay.mobile.antui:drawble/au_button_bg_for_list
+tab_text_color|com.alipay.mobile.antui:color/AU_COLOR_MAIN_CONTENT
+refresh_loading|AULoadingView
+table_square_top_selector|com.alipay.mobile.antui:drawble/au_button_bg_for_list
+title_bar_back_btn_white_selector|IconUtils.getTitleIcon_White(this, com.alipay.mobile.antui.R.string.iconfont_back)
+subButtonStyle|style="@com.alipay.mobile.antui:style/subButtonStyle"
+colorccc|#CCCCCC
+titlebar_more_normal|IconUtils.getTitleIcon_Blue#E606
+colorBlack|com.alipay.mobile.antui:color/AU_COLOR_MAIN_CONTENT
+table_arrow|com.alipay.mobile.antui:drawable/table_arrow
+colorLightGray|com.alipay.mobile.antui:color/AU_COLOR_SUB_CONTENT
+client_application_bg|com.alipay.mobile.antui:color/AU_COLOR_CLIENT_BG1
+ap_framework_pullrefresh_overview|AUPullLoadingView
+mainButtonStyle|style="@com.alipay.mobile.antui:style/mainButtonStyle"
+backgroudColor|com.alipay.mobile.antui:color/AU_COLOR_CLIENT_BG1

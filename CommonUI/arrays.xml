@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="iconfont_more">&#xe606;</string>
+    <string name="iconfont_cancel">&#xe626;</string>
+    <string name="iconfont_cancel_surface_ios">&#xe625;</string>
+    <string name="iconfont_voice">&#xe624;</string>
+    <string name="iconfont_collect_money">&#xe623;</string>
+    <string name="iconfont_back">&#xe608;</string>
+    <string name="iconfont_user_setting">&#xe620;</string>
+    <string name="iconfont_user">&#xe61f;</string>
+    <string name="iconfont_add">&#xe61e;</string>
+    <string name="iconfont_praise">&#xe610;</string>
+    <string name="iconfont_map">&#xe611;</string>
+    <string name="iconfont_checked">&#xe612;</string>
+    <string name="iconfont_notice">&#xe613;</string>
+    <string name="iconfont_cancel_line_ios">&#xe615;</string>
+    <string name="iconfont_add_user">&#xe617;</string>
+    <string name="iconfont_comment">&#xe619;</string>
+    <string name="iconfont_selected">&#xe61c;</string>
+    <string name="iconfont_bill">&#xe61d;</string>
+    <string name="iconfont_pulldown">&#xe60f;</string>
+    <string name="iconfont_scan">&#xe60e;</string>
+    <string name="iconfont_list">&#xe60d;</string>
+    <string name="iconfont_delete">&#xe60c;</string>
+    <string name="iconfont_share">&#xe60b;</string>
+    <string name="iconfont_search">&#xe60a;</string>
+    <string name="iconfont_complain">&#xe609;</string>
+    <string name="iconfont_qrcode">&#xe607;</string>
+    <string name="iconfont_unchecked">&#xe628;</string>
+    <string name="iconfont_right_arrow">&#xe629;</string>
+    <string name="iconfont_help">&#xe6eb;</string>
+    <string name="iconfont_group_chat">&#xe677;</string>
+    <string name="iconfont_contacts">&#xe600;</string>
+    <string name="iconfont_setting">&#xe604;</string>
+    <string name="iconfont_phone_book">&#xe696;</string>
+    <string name="iconfont_phone_contact">&#xe697;</string>
+    <string name="iconfont_minus_square_o">&#xe6ad;</string>
+    <string name="iconfont_heart">&#xe68c;</string>
+    <string name="iconfont_system_defeated">&#xe779;</string>
+    <string name="iconfont_system_serch">&#xe77a;</string>
+    <string name="iconfont_system_deleteb">&#xe77c;</string>
+    <string name="iconfont_system_addressbook">&#xe781;</string>
+    <string name="iconfont_system_card">&#xe784;</string>
+    <string name="iconfont_system_charge">&#xe78a;</string>
+    <string name="iconfont_system_complain">&#xe78e;</string>
+    <string name="iconfont_system_complaint">&#xe78f;</string>
+    <string name="iconfont_system_conceal">&#xe790;</string>
+    <string name="iconfont_system_copy">&#xe791;</string>
+    <string name="iconfont_system_dislike3">&#xe793;</string>
+    <string name="iconfont_system_expressfee">&#xe794;</string>
+    <string name="iconfont_system_dislike">&#xe797;</string>
+    <string name="iconfont_system_friends">&#xe798;</string>
+    <string name="iconfont_system_jinzhi">&#xe79e;</string>
+    <string name="iconfont_system_jujue">&#xe79f;</string>
+    <string name="iconfont_system_internet">&#xe7a0;</string>
+    <string name="iconfont_system_loadingc">&#xe7a5;</string>
+    <string name="iconfont_system_lock">&#xe7a6;</string>
+    <string name="iconfont_system_loadingb">&#xe7aa;</string>
+    <string name="iconfont_system_payment">&#xe7ab;</string>
+    <string name="iconfont_system_phonebook">&#xe7ad;</string>
+    <string name="iconfont_system_remind">&#xe7ae;</string>
+    <string name="iconfont_system_select">&#xe7af;</string>
+    <string name="iconfont_system_peopleno">&#xe7b4;</string>
+    <string name="iconfont_system_shareb">&#xe7b6;</string>
+    <string name="iconfont_system_trackparcel">&#xe7b7;</string>
+    <string name="iconfont_systme_expressdeliv">&#xe7bb;</string>
+    <string name="iconfont_system_warning3">&#xe7bc;</string>
+    <string name="iconfont_sytem_collect">&#xe7bd;</string>
+    <string name="iconfont_system_wait">&#xe7be;</string>
+    <string name="iconfont_follow">&#xe7c2;</string>
+    <string name="iconfont_plus_square_o">&#xe6b7;</string>
+    <string name="iconfont_system_koubeimian">&#xe7d3;</string>
+    <string name="iconfont_system_question">&#xe7d4;</string>
+    <string name="iconfont_closexian">&#xe7d5;</string>
+    <string name="iconfont_exclamation_circle_o">&#xe7d7;</string>
+    <string name="iconfont_cross_circle_o">&#xe7d8;</string>
+    <string name="iconfont_like">&#xe7d9;</string>
+    <string name="iconfont_system_closea">&#xe7dc;</string>
+    <string name="iconfont_loeft">&#xe7dd;</string>
+    <string name="iconfont_phone">&#xe7de;</string>
+    <string name="iconfont_system_map2">&#xe7d6;</string>
+    <string name="iconfont_system_tips">&#xe7df;</string>
+    <string name="iconfont_system_koubeixian">&#xe7db;</string>
+    <string name="iconfont_system_tipsxian">&#xe7da;</string>
+    <string name="iconfont_sysytem_addperson">&#xe7e0;</string>
+    <string name="iconfont_sysytem_tixing">&#xe7e1;</string>
+    <string name="iconfont_system_friendsz">&#xe7e2;</string>
+    <string name="iconfont_system_friendsb">&#xe7e3;</string>
+    <string name="iconfont_system_reload">&#xe62a;</string>
+    <string name="iconfont_system_noeye">&#xe7ed;</string>
+    <string name="iconfont_knowledge_sharepic">&#xe7ee;</string>
+    <string name="iconfont_shh_cyfw">&#xe653;</string>
+    <string name="iconfont_news_write">&#xe601;</string>
+    <string name="iconfont_news_comment">&#xe602;</string>
+    <string name="iconfont_news_favorites">&#xe603;</string>
+    <string name="iconfont_system_nosound">&#xe7f8;</string>
+    <string name="iconfont_system_ant">&#xe715;</string>
+    <string name="iconfont_system_anttalk">&#xe716;</string>
+    <string name="iconfont_fin_edit">&#xe717;</string>
+    <string name="iconfont_systen_triangle">&#xe71a;</string>
+    <string name="iconfont_systen_key">&#xe71b;</string>
+    <string name="iconfont_system_cancel_bold">&#xe71e;</string>
+    <string name="iconfont_system_information">&#xe724;</string>
+    <string name="iconfont_hangye_gift">&#xe729;</string>
+    <string name="iconfont_hangye_note">&#xe72a;</string>
+    <string name="iconfont_hangye_bus">&#xe72b;</string>
+    <string name="iconfont_shenghuohao_v">&#xe72c;</string>
+    <string name="iconfont_system_dowload">&#xe72e;</string>
+    <string name="iconfont_hangye_chengchedou">&#xe732;</string>
+
+    <string-array name="keyboard_row1_abc_shift_up">
+        <item>q</item>
+        <item>w</item>
+        <item>e</item>
+        <item>r</item>
+        <item>t</item>
+        <item>y</item>
+        <item>u</item>
+        <item>i</item>
+        <item>o</item>
+        <item>p</item>
+    </string-array>
+    <string-array name="keyboard_row1_abc_shift_down">
+        <item>Q</item>
+        <item>W</item>
+        <item>E</item>
+        <item>R</item>
+        <item>T</item>
+        <item>Y</item>
+        <item>U</item>
+        <item>I</item>
+        <item>O</item>
+        <item>P</item>
+    </string-array>
+    <string-array name="keyboard_row1_num_shift_up">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="keyboard_row1_num_shift_down">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="keyboard_row2_abc_shift_up">
+        <item>a</item>
+        <item>s</item>
+        <item>d</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+    </string-array>
+    <string-array name="keyboard_row2_abc_shift_down">
+        <item>A</item>
+        <item>S</item>
+        <item>D</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+    </string-array>
+    <string-array name="keyboard_row2_num_shift_up">
+        <item>~</item>
+        <item>!</item>
+        <item>\@</item>
+        <item>#</item>
+        <item>%</item>
+        <item>\'</item>
+        <item>&amp;</item>
+        <item>*</item>
+        <item>\?</item>
+    </string-array>
+    <string-array name="keyboard_row2_num_shift_up_des">
+        <item>@string/keyboard_bolangfu</item>
+        <item>@string/keyboard_tanhao</item>
+        <item>@string/keyboard_at</item>
+        <item>@string/keyboard_jinghao</item>
+        <item>@string/keyboard_baifenhao</item>
+        <item>@string/keyboard_danyinhao</item>
+        <item>@string/keyboard_and</item>
+        <item>@string/keyboard_xinghao</item>
+        <item>@string/keyboard_wenhao</item>
+    </string-array>
+    <string-array name="keyboard_row2_num_shift_down">
+        <item>&lt;</item>
+        <item>&gt;</item>
+        <item>+</item>
+        <item>=</item>
+        <item>÷</item>
+        <item>^</item>
+        <item>`</item>
+        <item>[</item>
+        <item>]</item>
+    </string-array>
+    <string-array name="keyboard_row2_num_shift_down_des">
+        <item>@string/keyboard_xiaoyu</item>
+        <item>@string/keyboard_dayu</item>
+        <item>@string/keyboard_jia</item>
+        <item>@string/keyboard_deng</item>
+        <item>@string/keyboard_chu</item>
+        <item>@string/keyboard_shangjiantou</item>
+        <item>@string/keyboard_zuopiehao</item>
+        <item>@string/keyboard_zuofang</item>
+        <item>@string/keyboard_youfang</item>
+    </string-array>
+    <string-array name="keyboard_row3_abc_shift_up">
+        <item>z</item>
+        <item>x</item>
+        <item>c</item>
+        <item>v</item>
+        <item>b</item>
+        <item>n</item>
+        <item>m</item>
+    </string-array>
+    <string-array name="keyboard_row3_abc_shift_down">
+        <item>Z</item>
+        <item>X</item>
+        <item>C</item>
+        <item>V</item>
+        <item>B</item>
+        <item>N</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="keyboard_row3_num_shift_up">
+        <item>(</item>
+        <item>)</item>
+        <item>-</item>
+        <item>_</item>
+        <item>:</item>
+        <item>;</item>
+        <item>/</item>
+    </string-array>
+    <string-array name="keyboard_row3_num_shift_up_des">
+        <item>@string/keyboard_zuokuohao</item>
+        <item>@string/keyboard_youkuohao</item>
+        <item>@string/keyboard_jianhao</item>
+        <item>@string/keyboard_xiahuaxian</item>
+        <item>@string/keyboard_maohao</item>
+        <item>@string/keyboard_fenhao</item>
+        <item>@string/keyboard_zhengxiexian</item>
+    </string-array>
+    <string-array name="keyboard_row3_num_shift_down">
+        <item>\\</item>
+        <item>|</item>
+        <item>\"</item>
+        <item>$</item>
+        <item>￥</item>
+        <item>{</item>
+        <item>}</item>
+    </string-array>
+    <string-array name="keyboard_row3_num_shift_down_des">
+        <item>@string/keyboard_fanxiexian</item>
+        <item>@string/keyboard_shuxian</item>
+        <item>@string/keyboard_shuangyin</item>
+        <item>@string/keyboard_meiyuan</item>
+        <item>@string/keyboard_rmb</item>
+        <item>@string/keyboard_zuoda</item>
+        <item>@string/keyboard_youda</item>
+    </string-array>
+
+</resources>
