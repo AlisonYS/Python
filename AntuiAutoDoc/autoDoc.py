@@ -6,11 +6,11 @@ import os
 import re
 
 
-FILE_NAME = "/Users/xuanmu/work/antui-client-docs/android/%s.md"
+FILE_NAME = "/android/%s.md"
 INTER_CONT = "接口说明\n\n```\n%s\n```\n\n#"
-DEMO_CONT = "示例\n\n```\n%s\n```\n"
+DEMO_CONT = "示例\n\n```\n%s\n```"
 DEMO_ACTIVITY_KEY = '%s start \*\*/(.*[\s\S]*?)/\*\* %s end'
-DEMO_XML_KEY = '%s start \*\*/(.*[\s\S]*?)/\*\* %s end'
+DEMO_XML_KEY = '%s start -->(.*[\s\S]*?)<!-- %s end'
 
 def writeFile(fileName, content):
     wr = open(fileName, 'w')
@@ -68,14 +68,14 @@ def getFileListWithJava(path):
 					yield name.split('.')[0], des, interfaceArray, demoXml, demoActivity
 
 
-def getActivityDemoInfo(mdName, demoActivity):
+def getActivityDemoInfo(srcDir, mdName, demoActivity):
 	if demoActivity == "":
 		return ""
 	key = DEMO_ACTIVITY_KEY % (mdName, mdName)
 	print demoActivity
 	demoActivity = demoActivity + ".java"
 
-	for (dirpath, dirnames, filenames) in walk('/Users/xuanmu/work/android-phone-antui/antui/test/src'):
+	for (dirpath, dirnames, filenames) in walk(srcDir + '/antui/test/src'):
 		for name in filenames:
 			if name == demoActivity:
 				myfile = open(dirpath +"/"+ name) 
@@ -86,19 +86,20 @@ def getActivityDemoInfo(mdName, demoActivity):
 					for demo in demoArray:
 						alldemo += demo + '\n'
 					return alldemo
-			break
+				else:
+					break
 
 	return ""
 
 
-def getXmlDemoInfo(mdName, demoXml):
+def getXmlDemoInfo(srcDir, mdName, demoXml):
 	if demoXml == "":
 		return ""
 	key = DEMO_XML_KEY % (mdName, mdName)
 	print demoXml
 	demoXml = demoXml + ".xml"
 
-	for (dirpath, dirnames, filenames) in walk('/Users/xuanmu/work/android-phone-antui/antui/test/res'):
+	for (dirpath, dirnames, filenames) in walk(srcDir + '/antui/test/res'):
 		for name in filenames:
 			if name == demoXml:
 				myfile = open(dirpath +"/"+ name) 
@@ -114,26 +115,32 @@ def getXmlDemoInfo(mdName, demoXml):
 	return ""
 
 
-if __name__=="__main__":
+def writeAutoDoc(docDir, srcDir):
 	demoStr = readFile("demo.md")
 	order = 1
-	for (mdName, nameDes, interfaceArray, demoXml, demoActivity) in getFileListWithJava('/Users/xuanmu/work/android-phone-antui/antui/api/src'):
-		print mdName, nameDes, demoActivity
+	for (mdName, nameDes, interfaceArray, demoXml, demoActivity) in getFileListWithJava(srcDir + '/antui/api/src'):
+		print mdName, nameDes
 		allinter = ""
 		for interface in interfaceArray:
 			allinter += '    /**\n     * ' + interface + '\n\n'
 
-		demo = getXmlDemoInfo(mdName, demoXml)
+		demo = getXmlDemoInfo(srcDir, mdName, demoXml)
 		demo = demo + '\n'
-		demo = demo + getActivityDemoInfo(mdName, demoActivity)
+		demo = demo + getActivityDemoInfo(srcDir, mdName, demoActivity)
 		
-		fileName = FILE_NAME % mdName
+		fileName = docDir + FILE_NAME % mdName.lower()
 		if os.path.exists(fileName):
 			replaceFile(fileName, allinter, demo)
 		else:
-			writeStr = demoStr % (order, mdName, nameDes, allinter)
+			writeStr = demoStr % (order, mdName, nameDes, allinter, demo)
 			writeFile(fileName, writeStr)
 
 		order += 1
 
+
+if __name__=="__main__":
+	docDir = '/Users/xuanmu/work/antui-client-docs'
+	srcDir = '/Users/xuanmu/work/android-phone-antui'
+	writeAutoDoc(docDir, srcDir)
+	
 	

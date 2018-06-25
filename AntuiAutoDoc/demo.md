@@ -11,6 +11,10 @@ title: %s
 ## 效果图
 
 
+## 依赖
+[参见"快速上手"](http://aui.alipay.net/develop/android/getting-started)
+
+
 ## 接口说明
 
 ``` 
